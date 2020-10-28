@@ -1,0 +1,24 @@
+{
+  "name": "jest-environment-idx",
+  "version": "0.1.0",
+  "description": "IDX environment for Jest",
+  "main": "index.js",
+  "files": [],
+  "author": "Paul Le Cam <paul@3box.io>",
+  "license": "(Apache-2.0 OR MIT)",
+  "scripts": {
+    "lint": "eslint",
+    "prepare": "npm run lint"
+  },
+  "dependencies": {
+    "@ceramicstudio/idx-tools": "^0.3.1",
+    "identity-wallet": "^2.0.0-alpha.17",
+    "jest-environment-ceramic": "^0.6.0",
+    "uint8arrays": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-3box": "^0.2.0",
+    "prettier": "^2.1.2"
+  }
+}
